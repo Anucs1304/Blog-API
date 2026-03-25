@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1, header a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+#posts-container {
+  padding: 20px;
+}
+
+.post-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-card h2 {
+  margin-top: 0;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+.comment {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

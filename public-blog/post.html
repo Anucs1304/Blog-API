@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">← Back to Home</a>
+    <h1 id="post-title"></h1>
+  </header>
+
+  <main>
+    <p id="post-content"></p>
+
+    <h2>Comments</h2>
+    <div id="comments"></div>
+
+    <h3>Add a Comment</h3>
+    <form id="comment-form">
+      <input type="text" id="username" placeholder="Your name">
+      <textarea id="content" placeholder="Write a comment..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <script src="post.js"></script>
+</body>
+</html>
